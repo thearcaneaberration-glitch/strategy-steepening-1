@@ -1,0 +1,27 @@
+[project]
+name = "steepening-1"
+version = "0.1.0"
+description = "Systematic Pairs Trade based on Net Interest Margin divergence between traditional commercial lenders and fee-based financial institutions. Regime-switching logic triggered by yield curve slope (10Y-2Y spread). Long Regionals/Short Capital Markets when curve steepens, reverse when it flattens. Market-neutral construction isolates the curve factor."
+requires-python = ">=3.11"
+dependencies = [
+    "alpaca-py>=0.43.4",
+    "cpz-ai>=4.2.0",
+    "numpy>=2.4.4",
+    "pandas>=3.0.2",
+    "python-dateutil>=2.9.0.post0",
+    "yfinance>=1.3.0",
+    "tidyfinance>=0.2.5",
+    "backtrader>=1.9.78.123",
+    "QuantLib>=1.42.1",
+    "py_vollib>=1.0.1",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.ruff.format]
+quote-style = "double"
