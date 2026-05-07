@@ -1,0 +1,16 @@
+https://app.cpz.ai/strategies/[your-strategy-id]
+
+# === SIMONS_AGENT_PROPOSAL_START ===
+# proposal_id: proposal-1778186068389-0-ozcykwch7
+# mode: AGENT
+# target_strategy_id: 58e4fa21-f683-47a0-aaf9-8103fc0daffa
+# target_strategy_name: Steepening (1)
+# timestamp: 2026-05-07T20:34:28.579Z
+# summary: Updated `strategy.
+# file_type: requirements.txt
+# diff:
+# --- a/requirements.txt
+# +++ b/requirements.txt
+# @@ -1,0 +1,1 @@
+# +https://app.cpz.ai/strategies/[your-strategy-id]
+# === SIMONS_AGENT_PROPOSAL_END ===
